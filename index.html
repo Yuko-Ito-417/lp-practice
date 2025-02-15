@@ -1,17 +1,144 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>lp-practice</title>
-  </head>
-  <body>
-    <!-- NEWSの部分のテキストはこちらを使ってください -->
-    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-    dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-    sint -->
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <title>lp-practice</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="inner">
+      <div class="is_flex nav-display">
+        <a href="#" class="header-item-icon"><i class="fas fa-archway fa-3x"></i></a>
+        <button class="header-item-button" onclick="loction.href='#'" type="submit">Contact</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!--メインタイトル-->
+    <section class="keyvisual">
+      <div class="inner">
+        <div class="keyvisual-main-title">
+          <h1>WEB PRODUCTION COMPANY</h1>
+        </div>
+        <div class="keyvisual-sub-title">
+          <h2>DIRECTION,CONTENT MARKETING</h2>
+        </div>
+      </div>
+    </section>
+    <!--「NEWS」-->
+    <section class="news">
+      <div class="inner">
+        <div class="is_flex">
+          <div class="news-inner-img">
+            <img class="news-img" src="images/news/news.png" alt="news image">
+          </div>
+          <div class="news-inner">
+            <h3 class="news-title">NEWS</h3>
+            <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis
+              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur
+              sint
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--「SKILLS」-->
+    <section class="skills">
+      <div class="inner">
+        <h3 class="skills-title">WE ARE SKILLS</h3>
+        <ul class="skills-inner">
+          <li class="skills-item"><a href="#"><img class="skills-img" src="images/icons/photo.png"
+                alt="photo image"></a></li>
+          <li class="skills-item"><a href="#"><img class="skills-img" src="images/icons/flower.png"
+                alt="flower image"></a></li>
+          <li class="skills-item"><a href="#"><img class="skills-img" src="images/icons/data.png" alt="data image"></a>
+          </li>
+          <li class="skills-item"><a href="#"><img class="skills-img" src="images/icons/location.png"
+                alt="location image"></a></li>
+          <li class="skills-item"><a href="#"><img class="skills-img" src="images/icons/calender.png"
+                alt="calender image"></a></li>
+          <li class="skills-item"><a href="#"><img class="skills-img" src="images/icons/security.png"
+                alt="security image"></a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- 「SELECT PLAN」のタイトルがある部分 -->
+    <section class="plan">
+      <div class="inner">
+        <div class="plan-inner">
+          <h3 class="plan-title">SELECT PLAN</h3>
+          <div>
+            <table class="teble-body">
+              <tr>
+                <th>PLAN</th>
+                <th>BASIC PLAN</th>
+                <th>STANDNRD PLAN</th>
+                <th>RNTERISE PLAN</th>
+              </tr>
+              <tr>
+                <td>PLICE</td>
+                <td>¥100,000</td>
+                <td>¥200,000</td>
+                <td>¥300,000</td>
+              </tr>
+              <tr>
+                <td>DELIDERY</td>
+                <td>Manuscript</td>
+                <td>HTML</td>
+                <td>Manuscript,HTML,PSD</td>
+              </tr>
+              <tr>
+                <td>ANALYSIS</td>
+                <td>○</td>
+                <td>○</td>
+                <td>○</td>
+              </tr>
+              <tr>
+                <td>IMPROVEMENT</td>
+                <td>×</td>
+                <td>○</td>
+                <td>○</td>
+              </tr>
+              <tr>
+                <td>DESIGN</td>
+                <td>×</td>
+                <td>×</td>
+                <td>○</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- iconが並んでいる部分 -->
+    <nav class="sns">
+      <div class="inner">
+        <div class="sns-inner">
+          <a href="#" class="sns-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="sns-icon"><i class="fas fa-comment-dots"></i></a>
+          <a href="#" class="sns-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="sns-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </nav>
+  </main>
+  <footer class="footer">
+    <div class="inner">
+      <P>Copyright(c)</P>
+    </div>
+  </footer>
+</body>
+
 </html>
